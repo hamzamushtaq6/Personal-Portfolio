@@ -1,0 +1,324 @@
+.home-section {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+    /* Light background for contrast */
+}
+
+.home-content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-header {
+    text-align: left;
+
+    /* Space between text and image */
+    padding-right: 85px;
+        /* Space between text and image */
+        margin-top: auto;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.wave {
+    font-size: 1.5rem;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.main-name {
+    color: #3498db;
+    /* Accent color for your name */
+}
+
+.typewriter-container {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #7f8c8d;
+}
+
+.home-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px
+}
+
+.tilt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    /* Smooth transition for tilt effect */
+}
+
+.avatar-img:hover {
+    transform: scale(1.1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .home-header {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .home-image-container {
+        margin-top: 30px;
+    }
+
+    .avatar-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .heading-name {
+        font-size: 2rem;
+    }
+
+    .typewriter-container {
+        font-size: 5rem;
+    }
+}
+
+
+
+.purple-one ul {
+    list-style-type:disc !important;
+    /* Removes bullet points */
+    padding-left: 40px;
+    /* margin: 0; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+
+}
+
+.purple-one li {
+    text-align: left;
+    /* Ensures left alignment */
+    display: block;
+    /* Makes sure they are vertical */
+    margin-bottom: 5px;
+    /* Adds spacing between list items */
+}
+
+
+.home-about-social {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-about-social h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.home-about-social p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.home-about-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Space between icons */
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    /* Adjust icon size */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* Custom Colors for Each Icon */
+.social-icons a[href*="github"]:hover {
+    background-color: #333;
+    color: white;
+}
+
+.social-icons a[href*="x.com"]:hover {
+    background-color: black;
+    color: white;
+}
+
+.social-icons a[href*="linkedin"]:hover {
+    background-color: #0077b5;
+    color: white;
+}
+
+.social-icons a[href*="instagram"]:hover {
+    background-color: #e4405f;
+    color: white;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .home-about-social-links {
+        gap: 15px;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* General Section Styling */
+.home-section {
+    background-color: #0d0d0d;
+    padding: 100px 0;
+}
+
+.home-content {
+    text-align: center;
+    color: white;
+}
+
+/* Heading Styles */
+.heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.main-name {
+    color: #9b59b6;
+}
+
+/* Avatar Image */
+.img-fluid {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Social Links */
+.home-about-social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-about-social h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.purple {
+    color: #9b59b6;
+}
+
+.purple-one {
+    color: #bb86fc;
+    font-size: 1.2rem;
+}
+
+.home-about-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.icon-colour {
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.icon-colour:hover {
+    color: #9b59b6;
+}
+
+/* Work Experience Section */
+.home-about-section {
+    padding: 80px 0;
+    background-color: #1a1a1a;
+}
+
+.home-about-description {
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+    /* justify-content: center; */
+    /* display: flex; */
+}
+
+/* List styling */
+ul.purple-one {
+    padding-left: 20px;
+}
+
+ul.purple-one li {
+    margin-bottom: 10px;
+}
+
+ul.purple-one li b {
+    color: #bb86fc;
+}
+
+/* Avatar Styling */
+.home-header img {
+    width: 150px;
+    /* Adjust this value to reduce the image size */
+    height: 150px;
+    /* Maintain the aspect ratio */
+    border-radius: 50%;
+    /* Make it circular, adjust if you want square or other shape */
+    margin-left: auto;
+    /* This will push it to the right */
+    margin-right: 0;
+    display: block;
+    /* Ensures image behaves as a block-level element */
+}
